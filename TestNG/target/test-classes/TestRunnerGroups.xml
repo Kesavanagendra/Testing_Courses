@@ -1,0 +1,38 @@
+<suite name = "LearningGroups">
+	
+	<test name = "SmokeTesting">
+		<groups>
+			<run>
+				<include name = "smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name = "testScenario1.Sample1"></class>
+			<class name = "testScenario1.Sample2"></class>
+		</classes>
+	</test>
+	
+	<test name = "RegressionTesting">
+		<groups>
+			<run>
+				<include name ="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name = "testScenario1.Sample1"></class>
+			<class name = "testScenario1.Sample2"></class>
+		</classes>
+	</test>
+	
+	<test name = "FunctionalTesting">
+		<groups>
+			<run>
+				<include name ="functional"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name = "testScenario1.Sample1"></class>
+			<class name = "testScenario1.Sample2"></class>
+		</classes>
+	</test>
+</suite>

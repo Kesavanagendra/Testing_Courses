@@ -1,0 +1,19 @@
+<suite name="testsuite" verbose="1" parallel="methods" thread-count="2">
+
+	<test name="TestCycle1">
+		<classes>
+			<class name="com.app.TestNGScripts.Paralleltest">
+ 				<methods>
+				    <include name="wikiPage"></include> 
+				    <include name="wikiPage2"></include>
+				    <include name="ninjaPage"></include>
+				    <include name="ninjaPage2"></include>
+ 				 </methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
+
+
+

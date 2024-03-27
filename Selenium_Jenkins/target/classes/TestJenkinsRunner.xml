@@ -1,0 +1,8 @@
+<suite name="Jenkins_SeleniumDemo" verbose="1">
+	<test name="Jenkins_SeleniumDemo">
+  		<classes>
+  			<class name="seleniumjenkins.TestJenkinsDemo"></class>
+  		</classes>
+
+ 	</test>
+</suite>

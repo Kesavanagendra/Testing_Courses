@@ -1,0 +1,14 @@
+<suite name="test1" verbose="1">
+  
+  <listeners>
+    <listener class-name="com.ecommerce.qa.utilities.RetryListener"></listener>
+  </listeners>
+  
+	<test name="CHILTERNOAK">
+		
+		<classes>
+			<class name="com.ecommerce.qa.runners.TestNGRunner"></class>	
+		</classes>
+		
+	</test>
+</suite>

@@ -1,0 +1,13 @@
+<suite name="test1" verbose="1">
+ 
+ <listeners>
+    <listener class-name="com.redbus.qa.TestPages.ITestListenerClass"></listener>
+  </listeners>
+	<test name="POMframework">
+		<classes>
+			<class name="com.redbus.qa.TestPages.TestHomePage"></class>
+			<class name="com.redbus.qa.TestPages.TestTicketStatusPage"></class>
+		</classes>
+	</test>
+	
+</suite>

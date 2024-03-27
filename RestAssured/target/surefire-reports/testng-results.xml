@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-12T15:33:38 IST" name="test1" finished-at="2023-10-12T15:34:03 IST" duration-ms="25081">
+    <groups>
+    </groups>
+    <test started-at="2023-10-12T15:33:38 IST" name="POMframework" finished-at="2023-10-12T15:34:03 IST" duration-ms="25081">
+      <class name="com.redbus.qa.TestPages.TestTicketStatusPage">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.redbus.qa.TestPages.TestTicketStatusPage@5d534f5d]" started-at="2023-10-12T15:33:54 IST" name="openApp" finished-at="2023-10-12T15:34:00 IST" duration-ms="5979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testTicketStatus()[pri:0, instance:com.redbus.qa.TestPages.TestTicketStatusPage@5d534f5d]" started-at="2023-10-12T15:34:00 IST" name="testTicketStatus" finished-at="2023-10-12T15:34:03 IST" duration-ms="2662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTicketStatus -->
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.redbus.qa.TestPages.TestTicketStatusPage@5d534f5d]" started-at="2023-10-12T15:34:03 IST" name="CloseApp" finished-at="2023-10-12T15:34:03 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.redbus.qa.TestPages.TestTicketStatusPage@5d534f5d]" started-at="2023-10-12T15:34:03 IST" name="generateTestStatus" finished-at="2023-10-12T15:34:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.redbus.qa.TestPages.TestTicketStatusPage.testTicketStatus()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testTicketStatus status=SUCCESS method=TestTicketStatusPage.testTicketStatus()[pri:0, instance:com.redbus.qa.TestPages.TestTicketStatusPage@5d534f5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+      </class> <!-- com.redbus.qa.TestPages.TestTicketStatusPage -->
+      <class name="com.redbus.qa.TestPages.TestHomePage">
+        <test-method is-config="true" signature="InitalizeExtentReport()[pri:0, instance:com.redbus.qa.TestPages.TestHomePage@29215f06]" started-at="2023-10-12T15:33:38 IST" name="InitalizeExtentReport" finished-at="2023-10-12T15:33:38 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitalizeExtentReport -->
+        <test-method is-config="true" signature="getMethodName(org.testng.ITestContext)[pri:0, instance:com.redbus.qa.TestPages.TestHomePage@29215f06]" started-at="2023-10-12T15:33:38 IST" name="getMethodName" finished-at="2023-10-12T15:33:38 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7fe07361]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.redbus.qa.TestPages.TestHomePage@29215f06]" started-at="2023-10-12T15:33:39 IST" name="openApp" finished-at="2023-10-12T15:33:52 IST" duration-ms="13615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testBookTickets(java.lang.String,java.lang.String)[pri:0, instance:com.redbus.qa.TestPages.TestHomePage@29215f06]" started-at="2023-10-12T15:33:52 IST" name="testBookTickets" data-provider="testdata" finished-at="2023-10-12T15:33:54 IST" duration-ms="1392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookTickets -->
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.redbus.qa.TestPages.TestHomePage@29215f06]" started-at="2023-10-12T15:33:54 IST" name="CloseApp" finished-at="2023-10-12T15:33:54 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.redbus.qa.TestPages.TestHomePage@29215f06]" started-at="2023-10-12T15:33:54 IST" name="generateTestStatus" finished-at="2023-10-12T15:33:54 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.redbus.qa.TestPages.TestHomePage.testBookTickets(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testBookTickets status=SUCCESS method=TestHomePage.testBookTickets(java.lang.String,java.lang.String)[pri:0, instance:com.redbus.qa.TestPages.TestHomePage@29215f06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="generateReports()[pri:0, instance:com.redbus.qa.TestPages.TestHomePage@29215f06]" started-at="2023-10-12T15:34:03 IST" name="generateReports" finished-at="2023-10-12T15:34:05 IST" duration-ms="1490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+      </class> <!-- com.redbus.qa.TestPages.TestHomePage -->
+    </test> <!-- POMframework -->
+  </suite> <!-- test1 -->
+</testng-results>

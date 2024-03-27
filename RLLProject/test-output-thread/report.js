@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"9a28ff32-6f21-4855-8377-7d202eac4e44","feature":"Test the functionality of Chilternoak Page","scenario":"To test the SignUp functionality with Invalid data","start":1702443285158,"group":1,"content":"","tags":"","end":1702443301911,"className":"failed"},{"id":"5d5f2ead-57ac-473b-a561-40d4a162cd60","feature":"Test the functionality of Chilternoak Page","scenario":"To test the SignUp functionality with valid data","start":1702443105885,"group":1,"content":"","tags":"","end":1702443264826,"className":"passed"},{"id":"5637146e-a14d-46fd-96b9-52e36c1a4e36","feature":"Test the functionality of Chilternoak Page","scenario":"To test the SignUp functionality with Invalid data","start":1702443264857,"group":1,"content":"","tags":"","end":1702443285130,"className":"failed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[main,5,main]"}]);
+});

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-12T19:14:54 IST" name="Default suite" finished-at="2023-10-12T19:14:54 IST" duration-ms="169">
+    <groups>
+    </groups>
+    <test started-at="2023-10-12T19:14:54 IST" name="Default test" finished-at="2023-10-12T19:14:54 IST" duration-ms="169">
+      <class name="com.app.Elearning.TestCourseSearch">
+        <test-method signature="findCourse()[pri:0, instance:com.app.Elearning.TestCourseSearch@71238fc2]" started-at="2023-10-12T19:14:54 IST" name="findCourse" finished-at="2023-10-12T19:14:54 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCourse -->
+        <test-method signature="findCourseEmptyInput()[pri:0, instance:com.app.Elearning.TestCourseSearch@71238fc2]" started-at="2023-10-12T19:14:54 IST" name="findCourseEmptyInput" finished-at="2023-10-12T19:14:54 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCourseEmptyInput -->
+        <test-method signature="findCourseInvalidInput()[pri:0, instance:com.app.Elearning.TestCourseSearch@71238fc2]" started-at="2023-10-12T19:14:54 IST" name="findCourseInvalidInput" finished-at="2023-10-12T19:14:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCourseInvalidInput -->
+      </class> <!-- com.app.Elearning.TestCourseSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

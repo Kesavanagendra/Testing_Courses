@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"9207e12e-2211-4eef-b22e-34bd54737e13","feature":"Tests the Star Health Page","scenario":"Star health home page test","start":1698233518252,"group":1,"content":"","tags":"@all,@functiontest,","end":1698233551223,"className":"passed"},{"id":"a57e3b9e-f0aa-4872-ad17-a7d181e688fc","feature":"Tests the Star Health Page","scenario":"My family plan page test","start":1698233551256,"group":1,"content":"","tags":"@all,@functiontest1,","end":1698233578891,"className":"passed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[main,5,main]"}]);
+});

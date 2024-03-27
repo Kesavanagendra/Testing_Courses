@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-24T13:03:41 IST" name="testsuite2" finished-at="2023-10-24T13:04:31 IST" duration-ms="50129">
+    <groups>
+    </groups>
+    <test started-at="2023-10-24T13:03:41 IST" name="starhealth001" finished-at="2023-10-24T13:04:22 IST" duration-ms="40728">
+      <class name="project.StarHealthPage">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:project.StarHealthPage@4310d43]" started-at="2023-10-24T13:03:41 IST" name="openBrowser" finished-at="2023-10-24T13:03:56 IST" duration-ms="15177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="Validate_title()[pri:49, instance:project.StarHealthPage@4310d43]" started-at="2023-10-24T13:03:56 IST" name="Validate_title" finished-at="2023-10-24T13:03:56 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_title -->
+        <test-method signature="Test_Header_plan(java.lang.String,java.lang.String,java.lang.String)[pri:50, instance:project.StarHealthPage@4310d43]" started-at="2023-10-24T13:03:56 IST" name="Test_Header_plan" finished-at="2023-10-24T13:04:16 IST" duration-ms="19216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[535354646]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin2123@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Header_plan -->
+        <test-method signature="validatedatafromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:51, instance:project.StarHealthPage@4310d43]" started-at="2023-10-24T13:04:17 IST" name="validatedatafromExcel" data-provider="testdata" finished-at="2023-10-24T13:04:17 IST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/StarHealth/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.youtube.com/user/StarhealthInsurance]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.linkedin.com/company/star-health-and-allied-insurance-co--ltd/?originalSubdomain=in]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://twitter.com/starhealthins?lang=en]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://www.instagram.com/starhealth.insurance/?hl=en]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatedatafromExcel -->
+        <test-method signature="Clickontwitter()[pri:52, instance:project.StarHealthPage@4310d43]" started-at="2023-10-24T13:04:17 IST" name="Clickontwitter" finished-at="2023-10-24T13:04:21 IST" duration-ms="4380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clickontwitter -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:project.StarHealthPage@4310d43]" started-at="2023-10-24T13:04:21 IST" name="teardown" finished-at="2023-10-24T13:04:22 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- project.StarHealthPage -->
+    </test> <!-- starhealth001 -->
+    <test started-at="2023-10-24T13:04:22 IST" name="starhealth002" finished-at="2023-10-24T13:04:31 IST" duration-ms="9359">
+      <class name="project.StarHealth002">
+        <test-method signature="print_link()[pri:0, instance:project.StarHealth002@1e0b4072]" started-at="2023-10-24T13:04:22 IST" name="print_link" finished-at="2023-10-24T13:04:31 IST" duration-ms="9359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_link -->
+      </class> <!-- project.StarHealth002 -->
+    </test> <!-- starhealth002 -->
+  </suite> <!-- testsuite2 -->
+</testng-results>
